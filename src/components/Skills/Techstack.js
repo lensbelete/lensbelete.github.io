@@ -69,6 +69,8 @@ function Techstack() {
       <Col xs={4} md={1} className="tech-icons">
         <SiMysql />
       </Col>
+   
+
 
     </Row>
   );

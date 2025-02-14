@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view w-56">
+    <Card className="project-card-view w-56 h-full">
      
       <Card.Body >
         <Card.Title>{props.title}</Card.Title>

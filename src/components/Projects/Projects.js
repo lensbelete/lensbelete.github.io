@@ -90,6 +90,22 @@ function Projects() {
       <div className="slider project-container">
       
         <Col className="project-card">
+        <ProjectCard
+              
+              isBlog={false}
+              title="Malawi and Ethiopian eService Projects"
+              description="Designed and implemented modern UI components using mantine and Tailwind CSS
+
+Worked with GitLab to manage collaborative efforts.
+
+
+
+
+
+
+"
+             
+            />
             <ProjectCard
               
               isBlog={false}
