@@ -81,49 +81,16 @@ function Projects() {
   };
   return (
     <Container className="project-section">
-      {/* <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", color: "white" }}>
-        <Link to="projects" smooth={true} activeClass="active" offset={50} duration={500} spy={true} >
-          <FaLink />
-        </Link>
-        &nbsp;  Projects <strong className="primary-color"> I worked on</strong> ?
-      </h1> */}
       <div className="slider project-container">
       
         <Col className="project-card">
         <ProjectCard
-              
               isBlog={false}
               title="Malawi and Ethiopian eService Projects"
               description="Designed and implemented modern UI components using mantine and Tailwind CSS
-
-Worked with GitLab to manage collaborative efforts.
-
-
-
-
-
-
-"
-             
-            />
-            <ProjectCard
-              
-              isBlog={false}
-              title="Guzo Car Rental"
-              description="made with a group of 3, it allows user to rent a car
-
-
-
-implemented with java servlets
-
-
-
-
-
-
-"
-             
-            />
+Worked with GitLab to manage collaborative efforts."
+      />
+      
           </Col>
           
           <Col className="project-card">
